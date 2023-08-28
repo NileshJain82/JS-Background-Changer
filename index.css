@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(163, 18, 225);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#btn {
+    display: inline-block;
+    background-color: #e2eae2; /* Green background color */
+    color: rgb(24, 2, 2); /* Text color */
+    padding: 12px 24px; /* Padding around text */
+    border: none; /* Remove border */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+
+    /* Positioning */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#btn:hover {
+    background-color: #070707; /* Darker green color on hover */
+    color: #e2eae2;
+    transform: translate(-50%, -50%) scale(1.05); /* Slightly scale up on hover */
+}
